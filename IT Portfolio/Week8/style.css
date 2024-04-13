@@ -1,0 +1,24 @@
+body{ font-family: verdana, Arial, Helvetica, sans-serif; font-size: 12px; background-color: #CCFFFF;}
+h1{ font-size: 14px; font-variant: small caps; color: #FF0000; background-color: #00FF00;
+    position: absolute;
+    top : 0px;
+    left : 0px;
+    z-index: index 2;
+   }
+
+p:first-letter{font-size: 200%;}
+.income{background-color: #e6e1e1;}
+.expences{background-color: #FF0000;}
+.profit{background-color: #FFFF00;}
+#budgetsummary{background-color: #63c8bc; border:dotted;
+padding: 20px;
+width: 500px;
+position: absolute;
+border-top-color: 0px;
+z-index: 1;
+ }
+
+
+
+ 
+

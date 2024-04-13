@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+</head>
+<body>
+    <script>
+        var Grammar = parseInt(prompt("Grammar : "));
+        var Science = parseInt(prompt("Science:"));
+        var English = parseInt(prompt("English:"));
+        var Social = parseInt(prompt("Social :"));
+        var Health = parseInt(prompt("Health :"));
+        var Total = ((Grammar + Science + English + Social + Health)/500) *100;
+        if(Total>=80 && Total<=100){
+            document.write("Distinction");
+        }
+        else if(Total>=60 && Total<80){
+            document.write("First Division");
+        }
+        else if(Total>=50 && Total<60){
+            document.write("Second Division");
+        }
+        else if(Total>=40 && Total<50){
+            document.write("Third Division");
+        }
+        else {
+            document.write("Fail");
+        }
+    </script>
+</body>
+</html>
